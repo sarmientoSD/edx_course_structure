@@ -41,6 +41,7 @@ def getCourseStructure(input_file, output_name=None):
     file_exists = os.path.exists(input_file)
     if not file_exists:
         print("❌ Input file does not exist")
+        return
 
     # Get abs outpath and abs input path
     OUTPUT_PATH = os.path.abspath(output_name) if output_name else None
