@@ -46,7 +46,7 @@ def getCourseStructure(input_file, output_name=None):
     # Get abs outpath and abs input path
     OUTPUT_PATH = os.path.abspath(output_name) if output_name else None
 
-    INPUT_NAME = os.path.abspath(input_name)
+    INPUT_NAME = os.path.abspath(input_file)
 
     ABSOLUTE_PATH = "/".join(INPUT_NAME.split("/")[:-1])
 
