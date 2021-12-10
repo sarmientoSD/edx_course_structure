@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='edx_course_structure',
-    version='1.0.0',
+    version='1.0.1',
     description='EDX course structure',
     url='git@github.com/sarmientoSD/edx_course_structure.git',
     author='Fernando Sarmiento',
